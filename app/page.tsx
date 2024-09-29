@@ -3,28 +3,27 @@ import Nav from "./components/Nav";
 import PopularProducts from "./sections/PopularProducts";
 import SuperQuality from "./sections/SuperQuality";
 import Services from "./sections/Services";
+import SpecialOffer from "./sections/SpecialOffer";
 
 const Home = () => {
   return (
     <main className="relative" >
       <Nav />
-      
-        <Hero />
-        <PopularProducts />
-        <SuperQuality />
+
+      <Hero />
+      <PopularProducts />
+      <SuperQuality />
       <Services />
-      
-      <section className="padding-x py-10">
-      special offers
-      </section>
+      <SpecialOffer />
+
       <section className="bg-pale-blue padding">
-      costmer reviews
+        costmer reviews
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
-      subscribe
+        subscribe
       </section>
       <section className="padding-x bg-black padding-t pb-8">
-      footer
+        footer
       </section>
     </main>
   );
