@@ -1,5 +1,6 @@
 import { Hero } from "./sections";
 import Nav from "./components/Nav";
+import PopularProducts from "./sections/PopularProducts";
 
 const Home = () => {
   return (
@@ -7,10 +8,8 @@ const Home = () => {
       <Nav />
       
         <Hero />
+        <PopularProducts />
       
-      <section className="padding">
-      popular products
-      </section>
       <section className="padding">
       quality
       </section>
