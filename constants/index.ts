@@ -18,15 +18,15 @@ export const navLinks = [
 export const shoes = [
   {
     thumbnail: 'images/thumbnail-shoe1.svg',
-    bigShoe: 'images/bigShoe1.svg',
+    bigShoe: '/images/big-shoe1.png',
   },
   {
     thumbnail: 'images/thumbnail-shoe2.svg',
-    bigShoe: 'images/bigShoe2.svg',
+    bigShoe: '/images/big-shoe2.png',
   },
   {
     thumbnail: 'images/thumbnail-shoe3.svg',
-    bigShoe: 'images/bigShoe3.svg',
+    bigShoe: '/images/big-shoe3.png',
   },
 ];
 
