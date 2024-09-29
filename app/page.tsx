@@ -4,6 +4,7 @@ import PopularProducts from "./sections/PopularProducts";
 import SuperQuality from "./sections/SuperQuality";
 import Services from "./sections/Services";
 import SpecialOffer from "./sections/SpecialOffer";
+import CustomerReviews from "./sections/CustomerReviews";
 
 const Home = () => {
   return (
@@ -15,10 +16,8 @@ const Home = () => {
       <SuperQuality />
       <Services />
       <SpecialOffer />
-
-      <section className="bg-pale-blue padding">
-        costmer reviews
-      </section>
+      <CustomerReviews />
+    
       <section className="padding-x sm:py-32 py-16 w-full">
         subscribe
       </section>
