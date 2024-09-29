@@ -2,6 +2,7 @@ import { Hero } from "./sections";
 import Nav from "./components/Nav";
 import PopularProducts from "./sections/PopularProducts";
 import SuperQuality from "./sections/SuperQuality";
+import Services from "./sections/Services";
 
 const Home = () => {
   return (
@@ -11,10 +12,8 @@ const Home = () => {
         <Hero />
         <PopularProducts />
         <SuperQuality />
-     
-      <section className="padding">
-      services
-      </section>
+      <Services />
+      
       <section className="padding-x py-10">
       special offers
       </section>
